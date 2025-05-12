@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.zip
+*.csv
+data/
+ARDIS_DATASET_3/
+cvae_model.pt
+*.pth
