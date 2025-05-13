@@ -9,7 +9,7 @@ if __name__ == "__main__":
     output_path = os.path.dirname(script_path)
 
     # 预处理和推理
-    model_path = './result/cnn_model_big.pth'
+    model_path = 'cnn_model_big.pth'
     img_path = 'test.jpg'
     predicted_class = process_and_infer(img_path, model_path)
     print(f"The predicted class is: {predicted_class}")
