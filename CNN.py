@@ -6,8 +6,8 @@ import numpy as np
 from tqdm import tqdm
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
-from DataLoader import MNISTDataLoader
-from ARDISDataLoader import ARDISDataLoader
+from DataLoader.MNISTDataLoader import MNISTDataLoader
+from DataLoader.ARDISDataLoader import ARDISDataLoader
 
 # class CNN
 # define the Convolutional Neural Network
